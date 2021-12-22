@@ -1,0 +1,33 @@
+.pdf-tumbnail{
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    transition: ease-in-out 0.5s;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.pdf-tumbnail:hover{
+    background-color: rgba(165, 42, 42, 0.596);
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.image img{
+    width: 100px;
+}
+
+div{
+    margin:0;
+    text-align: center;
+}
+
+.Title{
+    font-size: large;
+    font-weight: bold;
+}
+p{
+    margin:0;
+}

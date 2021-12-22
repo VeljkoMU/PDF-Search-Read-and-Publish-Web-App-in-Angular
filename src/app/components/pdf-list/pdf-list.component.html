@@ -1,0 +1,5 @@
+<div class="pdf-list">
+    <app-pdf *ngFor="let pdf of pdfList" [Title]="pdf.title" [img]="pdf.cover"
+    [pdf]="pdf" [author]="pdf.author" (selectedEvent)="selectionChange($event)"></app-pdf>
+
+</div>
